@@ -3,14 +3,14 @@ package edu.pasadena.cs.cs03b;
 public class Dummy {
 
 	public static void main(String[] args) {
-		// TODO: add you logic here
+		System.out.println("Part 1: Tuition Cost\n");
+		Tuition.main(args);
+
+		System.out.println("\nPart 2: Addition\n");
+		Addition.main(args);
 	}
 
 	public static int dummy() {
-		
-		
-		// TOOD: add your logic here
-
 		return 1;
 	}
 
